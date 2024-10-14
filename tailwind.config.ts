@@ -11,7 +11,21 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: {
+          50: "#F1F4FF",
+          100: "#E4E8FF",
+          200: "#C9D1FF",
+          300: "#AEBAFF",
+          400: "#93A3FF",
+          500: "#7589FF",
+          600: "#566EFF",
+          700: "#4A5FDC",
+          800: "#3E50B9",
+        }
       },
+      fontFamily: {
+        suite: ['var(--font-suite)']
+      }
     },
   },
   plugins: [],
